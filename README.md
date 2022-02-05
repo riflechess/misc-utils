@@ -49,10 +49,6 @@ curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/wasindexname
 
 My solutions from the Coursera class, *Build a Modern Computer from First Principles: From Nand to Tetris*.  These include .hdl (Hardware descriptor language) solutions and an assembler for the *Hack* computer.
 
-### createContent.ps1
-
-Simple script to bulk generate FileNet ICC (Integrated Content Collector) content and metatdata.  This can be helpful for load testing or getting in content for perf testing. 
-
 ### copyCleanReports.ps1
 
 Simple script to copy files to a share, unless they contain an exception.  If they contain an exception it will send an email alert to support team.
